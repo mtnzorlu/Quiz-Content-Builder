@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "title": "Quiz Content Builder Tanıtım Seti",
+    "description": "Quiz Content Builder uygulamasının temel özellikleri ve kullanım mantığı.",
+    "category": "Tanıtım",
+    "createdAt": "2026-02-09T00:00:00.000Z",
+    "updatedAt": "2026-02-09T00:00:00.000Z",
+    "totalQuestions": 10
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quiz Content Builder nedir?",
+      "answer": "Quiz Content Builder, eğitim uygulamaları için soru-cevap içerikleri oluşturup bunları standart bir JSON formatında dışa aktarabileceğiniz modern bir içerik üretim aracıdır.",
+      "category": "Genel Tanıtım",
+      "difficulty": "easy",
+      "explanation": "Uygulamanın temel amacı, quiz uygulamaları için içerik üretimini hızlandırmak ve standart bir yapı sunmaktır. Program yazanlar için kolay veri oluşturmak amacıyla kullanılır."
+    },
+    {
+      "id": 2,
+      "question": "Quiz Content Builder ile oluşturduğum içerikleri nasıl kullanabilirim?",
+      "answer": "Oluşturduğunuz soru-cevap içeriklerini JSON formatında dışa aktarabilir ve bu JSON dosyasını kendi web, mobil veya masaüstü quiz uygulamalarınızda veri kaynağı olarak kullanabilirsiniz.",
+      "category": "Kullanım",
+      "difficulty": "easy",
+      "explanation": "Export edilen JSON, meta bilgileri ve questions alanındaki soru listesiyle birlikte standart bir yapıdadır."
+    },
+    {
+      "id": 3,
+      "question": "Projeler ve sorular nerede saklanıyor?",
+      "answer": "Tüm projeler ve içerdikleri sorular, tarayıcınızın LocalStorage alanında saklanır. Verileriniz herhangi bir sunucuya gönderilmez.",
+      "category": "Veri Saklama",
+      "difficulty": "easy",
+      "explanation": "LocalStorage sayesinde tarayıcıyı kapatıp açsanız bile verileriniz korunur, ancak farklı tarayıcılarda ayrı depolanır."
+    },
+    {
+      "id": 4,
+      "question": "Yeni bir proje oluşturmak için hangi adımları izlemeliyim?",
+      "answer": "Üst menüdeki \"Yeni Proje\" butonuna tıklayın, proje başlığını zorunlu alan olarak doldurun, isteğe bağlı olarak açıklama ve kategori ekleyin ve ardından \"Oluştur\" butonuna basın.",
+      "category": "Proje Yönetimi",
+      "difficulty": "easy",
+      "explanation": "Her proje, meta bilgileri ve ona bağlı soru listesini içerir. Başlık olmadan proje oluşturulamaz."
+    },
+    {
+      "id": 5,
+      "question": "Bir projeye nasıl yeni soru eklerim?",
+      "answer": "Önce sol panelden bir proje seçin, ardından üst menüde görünen \"Yeni Soru\" butonuna tıklayın. Açılan formda soru ve cevap alanlarını doldurun ve \"Ekle\" butonuna basın.",
+      "category": "Soru Yönetimi",
+      "difficulty": "easy",
+      "explanation": "Soru ve cevap alanları zorunludur; diğer alanlar isteğe bağlıdır ancak içerikleri daha iyi organize etmenizi sağlar."
+    },
+    {
+      "id": 6,
+      "question": "Sorulara hangi ek alanları tanımlayabilirim?",
+      "answer": "Her soru için kategori, zorluk seviyesi (kolay, orta, zor) ve isteğe bağlı bir açıklama alanı tanımlayabilirsiniz.",
+      "category": "Soru Yapısı",
+      "difficulty": "medium",
+      "explanation": "Bu alanlar, büyük soru setlerinde filtreleme ve kullanıcıya ipucu verme açısından önemlidir."
+    },
+    {
+      "id": 7,
+      "question": "JSON export işlemi nasıl çalışır?",
+      "answer": "Bir proje seçtikten sonra üst menüdeki \"JSON İndir\" butonuna tıklarsınız. Açılan önizleme ekranından JSON içeriğini görebilir, dosya olarak indirebilir veya panoya kopyalayabilirsiniz.",
+      "category": "JSON Export",
+      "difficulty": "medium",
+      "explanation": "Export edilen JSON, meta ve questions alanlarını içerir ve doğrudan uygulamalarınızda kullanılabilecek standart bir formattadır."
+    },
+    {
+      "id": 8,
+      "question": "Hazır JSON dosyalarını uygulamaya nasıl içe aktarabilirim?",
+      "answer": "Üst menüdeki \"İçe Aktar\" butonuna tıklayarak bilgisayarınızdan bir JSON dosyası seçebilirsiniz. Dosya formatı doğrulandıktan sonra proje olarak içe aktarılır ve proje listesine eklenir.",
+      "category": "JSON Import",
+      "difficulty": "medium",
+      "explanation": "İçe aktarılan her JSON, yeni bir proje olarak kaydedilir ve mevcut projelerinizi etkilemez."
+    },
+    {
+      "id": 9,
+      "question": "Quiz Content Builder hangi teknolojilerle geliştirilmiştir?",
+      "answer": "Uygulama, Vue 3 (Composition API), Vite, Tailwind CSS ve LocalStorage kullanılarak geliştirilmiştir.",
+      "category": "Teknoloji",
+      "difficulty": "easy",
+      "explanation": "Modern frontend araçları sayesinde hem performanslı hem de geliştirilebilir bir yapı sunar."
+    },
+    {
+      "id": 10,
+      "question": "Bu tanıtım soru setini nasıl kullanmalıyım?",
+      "answer": "Bu soru setini hem uygulamanın çalışma mantığını öğrenmek hem de kendi soru setlerinizi tasarlarken örnek almak için kullanabilirsiniz. Dilerseniz bu projeyi kopyalayıp üzerinde değişiklik yapabilirsiniz.",
+      "category": "Kullanım Önerileri",
+      "difficulty": "easy",
+      "explanation": "Hazır tanıtım soruları, yeni kullanıcıların arayüze alışmasını ve JSON formatını anlamasını kolaylaştırmak için tasarlanmıştır."
+    }
+  ]
+}
+
